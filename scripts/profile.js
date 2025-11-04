@@ -17,7 +17,7 @@ function truncateAtWord(str, maxLength) {
 
 // Truncate a number to `decimals` decimal places without rounding.
 // Returns a string with fixed decimals (e.g. 1.234 -> "1.23").
-function truncateNumber(num, decimals = 2) {
+function truncateNumber(num, decimals = 3) {
     if (typeof num !== 'number' || !isFinite(num)) return null;
     const factor = Math.pow(10, decimals);
     const truncated = Math.trunc(num * factor) / factor;
