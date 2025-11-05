@@ -175,7 +175,7 @@ async function renderProfile() {
     let bestUrl = findBestSolveUrl(data);
     console.log(bestUrl)
 
-    if (bestUrl.has("live")) {
+    if (bestUrl.contains("live")) {
         bestUrl = toEmbed(bestUrl);
     }
     
