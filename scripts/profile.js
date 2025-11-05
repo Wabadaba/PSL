@@ -101,7 +101,7 @@ async function renderProfile() {
         return;
     }
 
-    // profile header
+    // profile's header
     const sectionHeader = `
     <section class="profile-header">
         <div>
@@ -139,8 +139,9 @@ async function renderProfile() {
         <div class="right-stats">
             <div>
                 <div class="value solve-time">${data.bestPlacement ?? "-"}</div>
-                <div class="label">BEST PLACEMENT</div>
+                <div  class="label">BEST PLACEMENT</div>
             </div>
+
 
             <div class="stat-item">
                 <div class="value">${data.matchWins}-${data.matchLosses}</div>
