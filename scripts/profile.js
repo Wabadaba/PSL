@@ -123,7 +123,7 @@ async function renderProfile() {
             <h1 class="title rank fade-down">Ranked ${ordinal(data.rank)}</h1>
             <h1 class="title name fade-down">${data.name}</h1>
             <h2>
-            Competed in ${data.totalEvents} event${data.totalEvents !== 1 ? 's' : ''} 
+            Competed in ${data.totalEvents} matche${data.totalEvents !== 1 ? 's' : ''} 
             over ${data.totalSeasons} season${data.totalSeasons !== 1 ? 's' : ''}
             </h2>        
         </div>
