@@ -32,6 +32,8 @@ async function loadRankings() {
     <div>${player.seasonMean?.toFixed(3)}</div>
     <div>${player.elimMean?.toFixed(3)}</div>
     <div>${player.solveVariance?.toFixed(3)}</div>
+    <div>${(player.totalErrors/player.totalSolves).toFixed(3)}%</div>
+
     <div><span class="win">${win}</span> - <span class="loss">${loss}</span></div>
   </div>
 
