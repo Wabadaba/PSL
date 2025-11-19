@@ -1,0 +1,138 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 1500px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 30px;   
+}
+
+
+.rankings-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.stats {
+    display: grid;
+    text-align: center;
+    padding: 15px;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px
+}
+
+.row.header, .rank {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.best-solve {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    width: 25px;
+}
+
+.link a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rank {
+font-family: 'title-font', 'Gontserrat-SemiBold', Helvetica, Arial, sans-serif;
+font-size: 40px;
+}
+.row .player, .stat div .player {
+    justify-content: left;
+    color: white;
+}
+
+
+#position {
+    display: flex;
+    align-items: center;
+}
+
+.stats div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row.header div {
+    font-family: title-font, Gontserrat-SemiBold, Helvetica, Arial;
+    font-weight: 700;
+
+}
+
+.row.data .player {
+    font-weight: 700;
+    font-size: 20px;
+}
+.table {
+    font-weight: 700;
+}
+
+.win {
+    color:rgba(62, 229, 62);
+}
+
+.loss {
+    color:rgba(236, 64, 64)
+}
+
+/* TOOL TIP  */
+
+.info-icon {
+  font-style: normal;
+  cursor: pointer;
+  color: #888;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* position above */
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+    max-width: 300px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
