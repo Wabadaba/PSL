@@ -298,17 +298,16 @@ header and banner
 }
 
 .banner .button-link{
-    padding: 20px 30px;
+    padding: 20px 10px;
     border-radius: 10px;
     background-color: #0018a3ce;
     color: #ffffff;
     border: none;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'title-font';
     cursor: pointer;
     text-decoration: none;
-
     flex: 1 1 calc(50% - 40px); 
     max-width: calc(50% - 40px); 
     box-sizing: border-box; 
