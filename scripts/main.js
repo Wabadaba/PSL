@@ -100,20 +100,20 @@ const eventData = [
     {
         imageSrc: 'assets/images/michigan-square.jpg',
         title: 'PSL Michigan',
-        link: 'https://www.start.gg/tournament/premier-speedcubing-league-michigan-open/details',
-        description: 'Join us on February 21th, 2026 for our last event in the 2025 PSL season, located in Port Huron Michigan',
+        link: 'https://www.start.gg/pslm1/register',
+        description: 'Join us on August 8th, 2026 for fifth event in the 2026 PSL season, located in Port Huron, Michigan',
     },
     {
-        imageSrc: 'assets/images/oregon_square.png',
-        title: 'PSL Oregon',
-        link: 'https://www.start.gg/tournament/premier-speedcubing-league-oregon-2026-1/details',
-        description: 'Join us on March 14th, 2026 for the first 2026 season PSL event, located in Central Point, Oregon!',
+        imageSrc: 'assets/images/space_needle.webp',
+        title: 'PSL Seattle',
+        link: 'https://www.start.gg/psls2/register',
+        description: 'Join us on September 13th, 2026 for the sixth 2026 season PSL event, located in Seattle, Washington!',
     },
     {
-        imageSrc: 'assets/images/psl_davis.jpg',
-        title: 'PSL Davis',
-        link: 'https://www.start.gg/tournament/premier-speedcubing-league-davis-2026/details',
-        description: 'Join us on April 18th, 2026 for the second 2026 season PSL event, located in Davis, California!',
+        imageSrc: 'assets/images/pslv_thumbnail.jpg',
+        title: '2026 PSL Championship',
+        link: 'https://www.start.gg/pslc26/register',
+        description: 'Join us on October 24th, 2026 for the 2026 PSL Championship, located in Las Vegas, Nevada!',
     }
 ];
 
